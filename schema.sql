@@ -1,0 +1,14 @@
+CREATE DATABASE cool_things;
+USE cool_things;
+
+CREATE TABLE things (
+    id integer PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(255) NOT NULL,
+    contents TEXT NOT NULL,
+    created TIMESTAMP NOT NULL DEFAULT NOW()
+);
+
+INSERT INTO notes (title, contents)
+VALUES
+('BURGER','BURGERS ARE AWESOME'),
+('VIDEO GAMES','VIDEO GAMES ARE EPIC');

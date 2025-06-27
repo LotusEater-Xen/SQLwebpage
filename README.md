@@ -13,3 +13,5 @@ dotenv -> for a basic method of encryption
 express -> to deploy a dynamic website 
            capable of requesting information from 
            or making changes to the database
+
+READ THE MOST RECENT release[].txt FOR MORE INFORMATION

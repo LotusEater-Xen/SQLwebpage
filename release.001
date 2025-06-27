@@ -1,0 +1,2 @@
+Basic functionality of the webpage has been established. Data received through the frontend html is being sent 
+as POST request to the express application, which then formats the information for the sql database table.
